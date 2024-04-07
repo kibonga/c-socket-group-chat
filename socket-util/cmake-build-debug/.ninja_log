@@ -1,5 +1,5 @@
 # ninja log v5
-0	38	1712428414184720170	CMakeFiles/socket_util.dir/socket-util.c.o	4769f1dc7de260d7
-38	278	1712428414420721970	libsocket_util.a	a3bcf8cf5d38dddf
-0	33	1712431019089035747	CMakeFiles/socket_util.dir/socket-util.c.o	4769f1dc7de260d7
-33	128	1712431019181036468	libsocket_util.a	a3bcf8cf5d38dddf
+1	62	1712477716519320999	CMakeFiles/socket_util.dir/socket-util.c.o	4769f1dc7de260d7
+62	112	1712477716567328213	libsocket_util.a	a3bcf8cf5d38dddf
+0	74	1712493603682206669	CMakeFiles/socket_util.dir/socket-util.c.o	4769f1dc7de260d7
+74	165	1712493603766212493	libsocket_util.a	a3bcf8cf5d38dddf

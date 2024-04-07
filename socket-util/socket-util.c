@@ -10,7 +10,7 @@ void hello_foo_lib(void) {
     printf("Hello, World from foo lib!\n");
 }
 
-int create_ipv4_socket() {
+int create_tcp_ipv4_socket() {
     int file_descriptor = socket(AF_INET, SOCK_STREAM, 0);
 
     if(file_descriptor == -1) {
@@ -21,11 +21,11 @@ int create_ipv4_socket() {
     return file_descriptor;
 }
 
-struct sockaddr_in* configure_socket_address(char *ip, short port) {
+struct sockaddr_in* create_ipv4_address(char *ip, short port) {
     struct sockaddr_in *addr = malloc(sizeof (struct sockaddr_in));
     addr->sin_port = htons(port);
     addr->sin_family = AF_INET;
-    memset(addr->sin_zero, 0, sizeof addr->sin_zero);
+//    memset(addr->sin_zero, 0, sizeof addr->sin_zero);
 
     // Convert text to IPv4 and bind to socket address
     if(strlen(ip) == 0) {
